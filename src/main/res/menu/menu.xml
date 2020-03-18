@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Option1"
+        android:id="@+id/Option1">
+
+        <menu>
+            <item android:title="Image"
+                android:id="@+id/Image"/>
+
+            <item android:title="Text"
+                android:id="@+id/Text"/>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/Option2"
+        android:title="Option2">
+        <menu>
+            <item android:title="Red"
+                android:id="@+id/Red"/>
+            <item android:id="@+id/Green"
+                android:title="Green"/>
+            <item android:title="Black"
+                android:id="@+id/Black"/>
+        </menu>
+
+
+    </item>
+</menu>
